@@ -1,0 +1,23 @@
+.task-item-button {
+    display: none;
+}
+
+.task-item {
+    max-width: 100%; 
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+}
+.task-item:hover .task-item-button {
+    display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+}
