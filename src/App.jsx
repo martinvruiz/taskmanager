@@ -6,7 +6,7 @@ import Home from './pages/Home'
 
 function App() {
   return (
-    <div className="w-screen h-screen flex justify-center items-center font-sans  bg-blue-200 text-white">
+    <div className="w-screen h-full flex justify-center items-center font-sans bg-[url(assets/images/bg-image.jpg)] bg-fixed bg-cover bg-no-repeat">
       <BrowserRouter>
       
 
