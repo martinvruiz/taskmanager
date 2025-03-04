@@ -45,7 +45,7 @@ const TaskList = () => {
         <div className="w-full overflow-x-hidden flex flex-col items-center min-h-full p-4">
             <h1 className="text-4xl font-bold p-4 text-gray-200">Lista de tareas</h1>
             <AddTask onSubmit={handleAddTask} value={newTask} onChange={(e) => setNewTask(e.target.value)} />
-            <div className="flex flex-col md:flex-row gap-6 w-full max-w-4xl mt-4">
+            <div className="flex flex-col min-h-90 md:flex-row gap-4 w-full max-w-4xl mt-4">
                 <div className="bg-white shadow-md rounded-lg p-4 w-full flex-1">
                     <h2 className="text-2xl font-semibold text-gray-700 mb-4">Por hacer</h2>
                     <ul className="list-none p-0 m-0">
